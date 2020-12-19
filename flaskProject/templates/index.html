@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+这是模板<br>
+这是首页<br>
+{{url_str}}<br>
+{{ my_list}}<br>
+{{ my_list.2}}<br>
+{{ my_dict}}<br>
+<hr>
+{# For循环的使用，建议先敲for，在按Tab键补全 #}
+{% for foo in my_list %}
+    {# 用if语句筛选大于3的显示出来 #}
+    {% if foo > 3 %}
+        {{foo}}<br>
+    {% endif %}
+{% endfor %}
+<hr>
+{{url_str | upper}}<br>
+{{url_str | reverse}}<br>
+{{url_str | upper| reverse}}<br>
+
+</body>
+</html>
