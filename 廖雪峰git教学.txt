@@ -3,3 +3,4 @@ https://zhuanlan.zhihu.com/p/43853688                     知乎flask推荐网址
 file:///F:/%E7%A0%94%E7%A9%B6%E7%94%9F/Study/Python/flask/flask_v1.2/index.html   flask讲义
 https://developer.mozilla.org/zh-CN/docs/learn           web开发基础
 https://blog.csdn.net/weixin_44065501/article/details/90304508  mysql基础指令
+pycharm激活方法  微信收藏
